@@ -35,6 +35,15 @@ export const reducer = (state,action)=>{
 
             }
         }
+         
+        case "REMOVE_TO_DSKETOP_FOLDER":{
+            return {
+                ...state,
+                Basket_Data_to_desktop :state.Basket_Data_to_desktop.filter(index=>index.id!=action.test3)
+
+            }
+        }
+
 
         default :
         return state

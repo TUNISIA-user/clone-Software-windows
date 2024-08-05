@@ -1,6 +1,6 @@
-.container {
-    width: 150px;
-    height: 10px;
+.containerX {
+    width: 250px;
+    height: 20px;
     border: 2px solid #b2b2b2;
     border-radius: 7px;
     margin: 0 auto;
@@ -10,7 +10,7 @@
   }
   
   .box {
-    width: 9px;
+    width: 20px;
  
     height: 100%;
     background: linear-gradient(to bottom, #2838c7 0%,#5979ef 17%,#869ef3 32%,#869ef3 45%,#5979ef 59%,#2838c7 100%);

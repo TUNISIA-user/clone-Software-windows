@@ -6,14 +6,14 @@ const Login = () => {
  const Navigate = useNavigate()
  const speed =  3000
 
- useEffect(()=>{
+  useEffect(()=>{
 
-    setTimeout(()=>{
-        Navigate("/LoginFireBase1")
-     },speed)
+     setTimeout(()=>{
+         Navigate("/LoginFireBase1")
+      },speed)
     
 
- },[])
+  },[])
  
 
 
@@ -22,11 +22,12 @@ const Login = () => {
     <div className="logo">
       <p className="top">Microsoft</p>
       <br></br>
-      <p className="mid">Windows<span>10</span></p>
+      <p className="mid">Windows
+        <span style={{marginTop:"10px"}}>10</span></p>
       <br></br>
       <p className="bottom">Professional</p>
     </div>
-    <div className="container">
+    <div className="containerX">
       <div className="box"></div>
       <div className="box"></div>
       <div className="box"></div>
